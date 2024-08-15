@@ -1,56 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="'UTF-8">
-        <meta name="viewport" content"width=device-width, initial-scale="1.0">
-        <title>
-            Real-Time Clock
-        </title>
-        <style>
-            body{
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Clock</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="clock-container">
+        <div id="clock" class="clock"></div>
+    </div>
 
-                display:flex;
-                justify-content:center;
-                align-items:Center;
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+        }
 
-
-
-                min-height: 100vh;
-                margin:0;
-                background-color: #444;
-                font-family:'Verdana', sans-serif;
-                color:#f1f1f1;
-            }
-            .clock-container{
-                background-color: #2222;
-                color:#d4d444;
-                padding: 20px;
-                border-radius: 12px;
-                box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-                text-align: center;
-            }
-            .clock{
-                font-size: 72px;
-                font-weight: bold;
-            }
-        </style>
-    </head>
-    <body>
-        <div class = "clock-cotainer">
-        </div>
-        <script>
-            function displayCurrentTime() {
-                const now =new date();
-                const hours = now.getHours().toString().padStart(2, '0');
-                const minutes =now.getSeconds().toString().padsStart(2, '0');
-                document.getElementById('clock').textContent = ${hours}:${minutes}:${seconds}
-                }
-                setInterval(displayCurrentTime,1000);
-                displayCurrentTime();
-        </script>
-
-    </body>
-
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</body>
 </html>
-
-
