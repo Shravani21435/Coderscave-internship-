@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)file:///C:/Users/dharn/OneDrive/SHRAVANI/coderscave/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Clock</title>
+    <link rel="stylesheet" href="file:///C:/Users/dharn/OneDrive/SHRAVANI/coderscave/%7B%7B%20url_for(&#39;static&#39;,%20filename=&#39;style.css&#39;)%20%7D%7D">
+</head>
+<body>
+    <div class="clock-container">
+        <div id="clock" class="clock">21:34:30</div>
+    </div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+
+
+</body></html>
