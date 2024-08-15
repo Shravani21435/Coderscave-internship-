@@ -1,0 +1,25 @@
+style.css
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #333;
+    font-family: 'Arial', sans-serif;
+    color: #f1f1f1;
+}
+
+.clock-container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.clock {
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffcc00;
+}
