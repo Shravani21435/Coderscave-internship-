@@ -1,0 +1,47 @@
+PS C:\Users\dharn\OneDrive\SHRAVANI\coderscave> C:/Users/dharn/AppData/Local/Programs/Python/Python312/python.exe c:/Users/dharn/OneDrive/SHRAVANI/coderscave/budgetplanner.py
+1. Add Income
+2. Add Expense
+3. View Balance
+4. View Expense Details
+5. Exit
+Choose an option: 1
+Enter income amount: $980000
+Added income: $980000.00
+1. Add Income
+2. Add Expense
+3. View Balance
+4. View Expense Details
+5. Exit
+Choose an option: 2
+Enter expense description: rent
+Enter expense amount: $450000
+Added expense: rent - $450000.00
+1. Add Income
+2. Add Expense
+3. View Balance
+4. View Expense Details
+5. Exit
+Choose an option: 3
+
+Income: $980000.00
+Total Expenses: $450000.00
+Balance: $530000.00
+
+1. Add Income
+2. Add Expense
+3. View Balance
+4. View Expense Details
+5. Exit
+Choose an option: 4
+
+Expense Details:
+rent: $450000.00
+
+
+1. Add Income
+2. Add Expense
+3. View Balance
+4. View Expense Details
+5. Exit
+Choose an option: 5
+Exiting Budget Planner. Goodbye!
