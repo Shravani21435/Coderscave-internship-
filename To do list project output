@@ -1,0 +1,83 @@
+===== To-Do List ======
+1. Add Task
+2. Show Tasks
+3. Mark Task as Done
+4. Exit
+Enter your choice: 1
+
+How many tasks do you want to add: 3
+Enter the task: Wake up
+Task added!
+Enter the task: Brush
+Task added!
+Enter the task: Breakfast
+Task added!
+
+===== To-Do List ======
+1. Add Task
+2. Show Tasks
+3. Mark Task as Done
+4. Exit
+Enter your choice: 2
+
+Tasks:
+1. Wake up - Not Done
+2. Brush - Not Done
+3. Breakfast - Not Done
+
+===== To-Do List ======
+1. Add Task
+2. Show Tasks
+3. Mark Task as Done
+4. Exit
+Enter your choice: 3
+Enter the task number to mark as done: 1
+Task marked as done!
+
+===== To-Do List ======
+1. Add Task
+2. Show Tasks
+3. Mark Task as Done
+4. Exit
+Enter your choice: 2
+
+Tasks:
+1. Wake up - Done
+2. Brush - Not Done
+3. Breakfast - Not Done
+
+===== To-Do List ======
+1. Add Task
+2. Show Tasks
+3. Mark Task as Done
+4. Exit
+Enter your choice: 3
+Enter the task number to mark as done: 1
+Task marked as done!
+
+===== To-Do List ======
+1. Add Task
+2. Show Tasks
+3. Mark Task as Done
+4. Exit
+Enter your choice: 3
+Enter the task number to mark as done: 2
+Task marked as done!
+
+===== To-Do List ======
+1. Add Task
+2. Show Tasks
+3. Mark Task as Done
+4. Exit
+Enter your choice: 2
+
+Tasks:
+1. Wake up - Done
+2. Brush - Done
+3. Breakfast - Not Done
+
+===== To-Do List ======
+1. Add Task
+2. Show Tasks
+3. Mark Task as Done
+4. Exit
